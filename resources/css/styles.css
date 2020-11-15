@@ -69,10 +69,6 @@ button {
   box-shadow: 3px 2px 3px rgba(255, 255, 255, 0.65);
 }
 
-button:focus {
-  border-style: none;
-}
-
 .container {
   margin: 0 auto;
   margin-top: 15px;
