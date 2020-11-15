@@ -114,7 +114,48 @@ section.container {
 
 /* Mobile version */
 
-@media only screen and (max-width: 400px) and (max-width: 516dpi) {
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 13px;
+  }
+  header h1 {
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: rgba(0, 70, 150, .45);
+    padding: .1em;
+    border-radius: 8px;
+  }
+
+  nav ul {
+    padding: 1em;
+  }
+
+  header nav ul li {
+    text-align: center;
+    padding: 1em;
+    list-style: none;
+    display: inline;
+  }
+
+  header nav ul li a {
+    border-bottom: 1.2px solid rgb(255, 255, 255);
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  address {
+    margin: 0 auto;
+    width: max-content;
+    border-bottom: 1px solid rgb(251, 255, 0);
+    border-width: medium;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 780px) {
   body {
     font-size: 13px;
   }
