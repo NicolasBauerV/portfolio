@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-html {
-  height: 100%;
-}
-
 body {
   margin: 0;
   font-size: 16px;
@@ -52,6 +48,27 @@ img {
   border-radius: 50px;
 }
 
+footer {
+  margin-top: 15px;
+  padding: 1em;
+  background-color: rgb(3, 72, 151);
+}
+
+footer address a {
+  color: whitesmoke;
+}
+
+button {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 3.2em;
+  padding: .5em;
+  border-style: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.65);
+  box-shadow: 3px 2px 3px rgba(255, 255, 255, 0.65);
+}
+
 .container {
   margin: 0 auto;
   margin-top: 15px;
@@ -69,23 +86,6 @@ img {
 
 section.container {
   box-shadow: 5px 5px 10px white;
-}
-
-footer {
-  margin-top: 15px;
-  padding: 1em;
-  background-color: rgb(3, 72, 151);
-}
-
-button {
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-left: 3.2em;
-  padding: .5em;
-  border-style: none;
-  border-radius: 6px;
-  background-color: rgba(255, 255, 255, 0.65);
-  box-shadow: 3px 2px 3px rgba(255, 255, 255, 0.65);
 }
 
 #button-style:hover {
@@ -110,4 +110,47 @@ button {
   color: white;
   background-color: rgb(12, 0, 80);
   box-shadow: 0px 0px 8px 3px rgb(110, 110, 110) inset;
+}
+
+/* Mobile version */
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 13px;
+  }
+  header h1 {
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: rgba(0, 70, 150, .45);
+    padding: .1em;
+    border-radius: 8px;
+  }
+
+  nav ul {
+    padding: 1em;
+  }
+
+  header nav ul li {
+    text-align: center;
+    padding: 1em;
+    list-style: none;
+    display: inline;
+  }
+
+  header nav ul li a {
+    border-bottom: 1.2px solid rgb(255, 255, 255);
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  address {
+    margin: 0 auto;
+    width: max-content;
+    border-bottom: 1px solid rgb(251, 255, 0);
+    border-width: medium;
+    padding-bottom: 1rem;
+  }
 }
