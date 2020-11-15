@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  color: rgb(219, 219, 219);
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: rgb(0, 37, 78);
+}
+
+header h1 {
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: rgba(0, 70, 150, .45);
+  width: max-content;
+  padding: .3em;
+  border-radius: 8px;
+}
+
+header nav {
+  padding: 0;
+  background-color: rgb(129, 129, 129);
+}
+
+header nav ul {
+  text-align: center;
+  padding: 1em;
+}
+
+header nav ul li {
+  text-align: center;
+  padding: 1em;
+  list-style: none;
+  display: inline;
+}
+
+header nav ul li:hover {
+  background-color: black;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.555);
+  color: rgb(255, 255, 255);
+  width: 70%;
+  padding: 1em;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.container article h2 {
+  margin-top: -3px;
+}
+
+section.container {
+  box-shadow: 5px 5px 10px white;
+}
+
+footer {
+  margin-top: 15px;
+  padding: 1em;
+  background-color: rgb(3, 72, 151);
+}
