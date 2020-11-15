@@ -114,7 +114,7 @@ section.container {
 
 /* Mobile version */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) and (max-width: 6.67dpi) {
   body {
     font-size: 13px;
   }
